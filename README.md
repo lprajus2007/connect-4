@@ -1,6 +1,8 @@
 # Connect4
 
-Connect4 is a classic two-player connection game in which the players first choose a color and then take turns dropping colored discs from the top into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the next available space within the column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own discs.
+Connect4 is a classic two-player connection game in which the players pick colors and then take turns dropping colored discs from the top into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the next available space within the column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own discs.
+
+https://github.com/user-attachments/assets/70208ca9-64aa-415d-8ecd-64edb67d906b
 
 ## Features
 
