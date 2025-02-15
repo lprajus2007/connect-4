@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f0f0f0;
+}
+
+.title {
+  color: #000;
+}
+
+.errorContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 10vh;
+}
+
+.board {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.hoverColumn {
+  background-color: rgba(0, 0, 0, 0.25) !important;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  background-color: #fff;
+  border: 1px solid #000;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.red_disc {
+  background-color: red;
+  border-radius: 50%;
+}
+
+.yellow_disc {
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.empty_disc {
+  border: 1px solid grey;
+  border-radius: 50%;
+}
+
+.disc {
+  width: 80%;
+  height: 80%;
+}
